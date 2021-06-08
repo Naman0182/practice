@@ -1,0 +1,204 @@
+*{
+	box-sizing: border-box;
+	margin-top: 0px ;
+	border-radius: 0px;
+	}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+hr {
+	
+	width: 15%;
+	border-color: black;
+	border-width: 15%;
+	opacity: 55%;
+	
+}
+/* navigatiion bar */
+.navbar{
+	position: sticky;
+	top:0%;
+	width: 100%;
+	background-color: #333;
+	overflow: hidden;
+	border-radius: 0px;
+	
+}
+
+.navbar a{
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: hsl(158, 95%, 34%);
+	color: black;
+}
+@media screen and (max-width: 700px) {
+	.navbar{
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+/* welcome image*/
+#welcome_bg img{
+	border-radius: 5px;
+}
+
+/* Home*/
+#home{
+	background-color: whitesmoke;
+	border-radius: 5px;
+	padding: 25px 0px;
+}
+
+#home h1{
+	text-align: center;
+	font-weight: lighter;
+}
+
+#home p{
+	text-align: center;
+	padding: 14px 16px;
+}
+
+#home h3{
+	text-align: center;
+	padding: 15px 14px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+}
+
+/*news space*/
+
+#news{
+	
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	padding: 25px 0px;
+}
+
+#news h1{
+	font-size: 31.25px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+}
+#news_block{
+	padding: 0px 16px;
+	line-height: 2rem;
+	border-style: solid;
+	border-color: white;
+	background-color: whitesmoke;
+	line-height: inherit;
+}
+
+#news_block h2{
+	font-weight: inherit;
+	font-size: 25px;
+	
+}
+/* aligning elements*/
+.row {
+
+	display: flex;
+}
+
+.left {
+	flex: 33.5%;
+	padding: 20px;
+}
+
+.right {
+	flex: 33%;
+	padding: 20px;
+}
+
+.center {
+	flex: 33%;
+	padding: 20px;
+}
+
+h6 {
+	font-weight: inherit;
+}
+
+@media screen and (max-width: 700px) {
+	.row {
+		flex-direction: column;
+	}
+}
+@media screen and (max-width: 400px) {
+	.navbar a {
+		float: none;
+		width: 100%;
+	}
+}
+
+/*ABOUT US SECTION*/
+
+#aboutus{
+	background-color: whitesmoke;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	padding: 20px 0px;
+}
+
+#aboutus h1{
+	font-size: 31.25px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+}
+
+#aboutus p{
+	font-size: 16px;
+	text-align: justify;
+	line-height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+/*Contact section*/
+#contact{
+	background-color: whitesmoke;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	padding: 2px 0px;
+}
+
+#contact h1{
+	font-weight: inherit;
+	text-orientation: sideways;
+	text-transform: uppercase;
+}
+#contact a{
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.instagram img{
+	height: 24px;
+}
+
+/* Creator */
+
+.creator{
+	font-weight: inherit;
+	font-size: 10.24px;
+	text-align: center;
+}
